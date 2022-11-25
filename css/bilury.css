@@ -1,0 +1,870 @@
+*{ 
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+.header{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../images/bg.jpg);
+    background-size: cover;
+    width: 100%;
+   
+    padding: 40px 0;
+}
+.header_container{ 
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    color: black;
+    
+}
+.head-col-1{
+    width: 22%;
+    
+}
+.head-col-2{
+    width: 80%;
+    padding: 20px 0;
+    font-family: cursive;
+}
+ .head-col-2 ul li{
+    list-style-type: none;
+}
+.head-col-2 ul{
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+}
+.head-col-3{
+    width: 15%;
+    text-align: center;
+    background-color: burlywood;
+   
+    
+}
+.head-col-3 span{
+    position: relative;
+    top: -6px;
+}
+.container{
+    margin: 0 auto;
+    width: 80%;
+    
+}
+.con {
+    padding: 190px 0;
+    color: whitesmoke;
+    
+}
+.con h1{
+    font-size: 40px;
+}
+.con p{
+   width: 500px;
+   font-size: 20px;
+   font-family: cursive;
+   padding: 30px 0;
+   color:lavender;
+   
+}
+.con h3:hover{
+   color: aqua;
+   cursor: pointer;
+  
+}
+.con h3{
+    border: 1px solid white;
+    padding: 8px;
+    width: 10%;
+    text-align: center;
+
+}
+.caldener{
+    width: 78%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    bottom: 80px;
+}
+.caldener ul{
+    width: 89%;
+    color: white;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    background-color:rgba(0,0,0,0.55) ;
+    padding: 25px;
+}
+.caldener ul li{
+    background-color: rgba(255,255,255,0.20);
+    border: 1px solid rgba(255,255,255,0.20);
+    width: 18%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0 5px;
+   
+    text-align: center;
+}
+.caldener ul  .var{
+  background-color: #b18c57;
+   border-color:#b18c57 ;
+   cursor: pointer;
+}
+.caldener #arrow{
+    background-color: rgba(0,0,0,0.5);
+    text-align: center;
+    font-size: 40px;
+    color: #fff;
+    opacity: 0.4;
+    position: relative;
+    left: 200px;
+    padding:  5px ;
+   
+}
+.caldener #arrow:hover{
+    background-color: rgba(0,0,0,1.5) ;
+    cursor: pointer;
+}
+.header-2{
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    padding: 80px 0;
+}
+.bed_left{
+    justify-content: space-between;
+    width: 56%;
+   
+    display: flex;
+}
+.bed_right{
+    width: 50%;
+    overflow: hidden;
+    padding: 100px 0;
+}
+
+.tining-hall{
+    position: absolute;
+    top: 1024px;
+    left: 480px;
+   
+} 
+
+ .content h5{
+    font-size: 20px;
+}
+.content p{
+    color:rgba(0,0,0,0.5);
+    font-family: cursive;
+    font-size: 18px;
+   
+  
+}
+.content h3{
+    border: 1px solid black;
+    padding: 8px;
+    width: 28%;
+    text-align: center;
+    background-color: #b18c57;
+
+} 
+.content h3:hover{
+    color:#fff;
+    cursor: pointer;
+}
+.header-3{
+    width: 100%;
+    background-color: rgb(252, 230, 251);
+    padding: 80px 0;
+   
+}
+.map-1{
+    width: 80%;
+    align-items: center;
+    margin: 0 auto;
+    background-color: #fff;
+    display: flex;
+    
+}
+.map-2{
+    padding: 70px;
+    width: 35%;
+    font-size: 17px;
+    font-family:cursive;
+    color: rgba(0, 0, 0, 0.60);
+}
+.map-2 h1{
+    color: black;
+}
+.map-2 h3{
+    color: black;
+    width: 65%;
+    padding: 12px;
+    border: 1px solid black;
+    background-color: #b18c57;
+    text-align: center;
+}
+.map-2 h3:hover{
+    cursor:pointer;
+    color: white;
+
+}
+.map-3{
+    width: 45% ;
+}
+.maps img{
+    
+    width: 45rem;
+    height: 25rem;
+   
+}
+.header-4{
+    width: 100%;
+    background: rgba(0, 0, 0,1.8);
+}
+.rooms h1 {
+    color: #fff;
+    text-align: center;
+    padding-top: 50px ;
+}
+.rooms p{
+    color: #fff;
+    opacity: 0.48;
+    text-align: center;
+    font-family:cursive;
+    font-size: 18px;
+}
+.all-rooms{
+    width: 80%;
+    margin: 0 auto;
+    padding: 80px 0;
+}
+.room-1 ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+.room-1 img{
+   width: 300px;
+   height: 400px;
+   padding: 10px;
+   opacity: 0.6;
+   
+}
+.room-1 ul .imperial{
+    color: white;
+}
+
+.imperial{
+    position: relative;
+    top: -177px;
+    bottom: 0;
+}
+.imperial span{
+    bottom: 167px;
+    position: absolute;
+    left: 182px;
+    color: white;
+}
+.imperial h3{
+    position: absolute;
+    top: 80px;
+    padding: 0 40px;
+}
+.header-5{
+    width: 100%;
+   
+}
+.service_container{
+    width: 80%;
+    margin: 0 auto;
+
+}
+.high h1{
+    text-align: center;
+    font-family:cursive;
+    font-weight: 500;
+    padding-top: 30px;
+}
+.high p{
+    text-align: center;
+     font-family: cursive;
+     font-size: 18px;
+     color:rgba(0,0,0,0.5) ;
+}
+
+.shop .logo{
+    margin-right: 15px;
+}
+.shop  ul {
+    padding: 30px 0;
+    list-style-type: none;
+  display: flex; 
+  justify-content: space-between;  
+}
+.shop i{
+    color:peru;
+    position: relative;
+    right: 5px;
+}
+.shop  .he h3{
+    color: rgba(0,0,0,0.8);
+}
+.shop .he p{
+    font-size: 17px;
+    color: rgba(0,0,0,0.5);
+    padding-right: 40px;
+    font-family: cursive;
+}
+.header-6{
+    width: 100%;
+    background-color: rgb(255, 241, 255);
+    
+}
+.extra-container{
+     width: 80%;
+     margin: 0 auto;
+     display: flex;
+}
+.all{
+    width: 25%;
+    font-family: cursive;
+    font-weight: 500;
+    padding: 40px 0;
+}
+.all p{
+    font-family: cursive;
+    font-size: 17px;
+    color:rgba(0,0,0,0.5) ;
+}
+.all h3{
+    font-family: cursive;
+    color: white; 
+    border: 1px solid black;
+    background-color: #b18c57;
+    width: 35%;
+    padding: 8px;
+    text-align: center;
+    
+}
+.all h3:hover{
+      cursor: pointer;
+      background-color: burlywood;
+}
+.extra-pic {
+  width: 80%;
+  padding: 50px 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+.extra-pic img{
+     width: 290px;
+     height: 200px;
+}
+.extra-pic img{
+  background-color: white;
+}
+.extra-pic .pic-1 {
+    border: 1px solid white;
+    background-color: white;
+}
+.extra-pic .pic-2 {
+    border: 1px solid white;
+    background-color: white;
+}
+.extra-pic .pic-3 {
+    border: 1px solid white;
+    background-color: rgb(255, 255, 255);
+}
+.extra-pic img:hover{
+    cursor: pointer;
+    
+}
+.extra-pic  p{
+    width: 280px;
+   padding: 20px;
+   color: rgba(0,0,0,0.5);
+   font-family: cursive;
+}
+.extra-pic h2{
+    padding: 0 20px ;
+    padding-top: 20px;
+    font-weight: 300;
+}
+.extra-pic h4{
+     padding-left: 20px;
+     margin-bottom: 20px;
+     color: #b18c57;
+     font-weight: 100;
+     font-family: cursive;
+}
+.extra-pic h4{
+    cursor: pointer;
+}
+.header-7{
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../images/bg4.jpg);
+    background-size: auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: scroll !important;
+}
+
+.about-container{
+    width: 80%;
+     margin: 0 auto; 
+}
+.client{
+    text-align: center;
+    padding-top: 20px;
+}
+.client h1{
+    color: white;
+    font-family:cursive;
+}
+.client p{
+     color: rgba(255, 255, 255, 0.366);
+     font-family: cursive;
+     font-size: 20px;
+}
+.circyle{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 80px 0;
+}
+.circyle img{
+   border-radius: 50%;
+   position: relative;
+   left: 150px;
+}
+.client-1 p{
+    font-size: 18px;
+    font-family:cursive;
+    color: rgb(231, 225, 225);
+    padding: 40px 0 0;
+    margin: 15px;
+    text-align: center;
+}
+.client-1 h4{
+    color: gray;
+    position: relative;
+    left: 10rem;
+    font-family: cursive;
+    font-weight: 50;
+}
+.header-8{
+    width: 100%;
+}
+.event-container{
+    width: 80%;
+    margin: 0 auto;
+}
+.news{
+    text-align: center;
+    padding: 50px 0;
+    font-family: cursive;
+}
+.news h1{
+    font-weight: 100;
+}
+.news p{
+    color: rgba(35, 34, 34, 0.482);
+    font-size: 20px;
+    font-weight:100;
+}
+.jul{
+    display: flex;
+    justify-content: space-evenly;
+}
+.jul-1{
+    border: 1px solid rgb(192, 188, 188);
+}
+.jul-1 img{
+  width: 350px;
+}
+.jul-1 img:hover{
+    filter: brightness(50%);
+    cursor: pointer;
+}
+.jul h2{
+    width: 320px;
+}
+.jul-1 p{
+    padding: 20px 0;
+    color: #b18c57;
+    font-family: cursive;
+    margin-left: 20px;
+}
+.jul-1 h2{
+    padding: 20px 0;
+    font-weight: 150;
+    margin-left: 20px;
+}
+.jul-1 h4{
+    margin-bottom: 15px;
+    color: #b18c57;
+    font-family: cursive;
+    font-weight: 50;
+    margin-left: 20px;
+}
+.more{
+    margin-top: 30px;
+    position: relative;
+    left: 32rem;
+    padding: 100px;
+}
+.more span{
+     font-family: cursive;
+     font-weight: 100;
+     font-size: 16px;
+     color: white;
+}
+ .more{
+    background-color: #b18c57;
+    border: 1px solid black;
+    text-align: center;
+    width: 13%;
+    padding: 15px;
+    margin-bottom: 40px;
+}
+.more:hover{
+    cursor: pointer;
+    background-color:#4a2e05;
+}
+.header-9{
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(../images/bg3.jpg);
+    background-size: auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: scroll !important;
+}
+.phone-container{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+.phone{
+    padding: 6rem 0;
+    position: relative;
+    right: 30px;
+}
+.phone h1{
+     color: white;
+}
+.phone p{
+    font-family: cursive;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.662);
+    width: 32rem;
+}
+.phone i{
+    color: #b18c57;
+    padding: 30px 0;
+}
+.phone h3{
+    color: rgba(255, 255, 255, 0.745);
+    position: relative;
+    left: 60px;
+    bottom: 60px;
+    font-family: cursive;
+}
+.phone h2{
+    color: rgba(255, 255, 255, 0.852);
+    position: relative;
+    left: 60px;
+    bottom: 3rem;
+    font-family: cursive;
+    font-weight: 50;
+    font-size: 19px;
+}
+.reserver{
+    width: 40%;
+    background-color:white;
+    height: 500px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    position: relative;
+    left: 5rem;
+}
+.res{
+    height: 300px;
+    padding: 5rem 0;
+    position: relative;
+    left: 4rem;
+   font-family: cursive;
+ }
+ .res .ca{
+     list-style-type: none;
+ }
+ .ca .c-1{
+    border: 1px solid black;
+    width: 180px;
+    height: 40px;
+    text-align: center;
+    background-color: white;
+}
+.ca .c-2{
+    position: relative;
+    left: 12rem;
+    bottom: 40px;
+    border: 1px solid black;
+    height: 40px;
+    width: 180px;
+    text-align: center;
+    background-color: white;
+}
+.ca .c-3{
+    border: 1px solid   black;
+    height: 40px;
+    width: 180px;
+    text-align: center;
+    background-color: white;
+}
+.ca .c-4{
+    position: relative;
+    left: 12rem;
+    bottom: 40px;
+    border: 1px solid  black;
+    height: 40px;
+    width: 180px;
+    text-align: center;
+    background-color: white;
+}
+ #ss{
+    cursor: pointer;
+    position: relative;
+    left: 20px;
+    padding: 7px 0;
+}
+#sss{
+    cursor: pointer;
+    position: relative;
+    left: 50px; 
+    padding: 7px 0;
+}
+#ssss{
+    cursor: pointer;
+    position: relative;
+    left: 45px; 
+    padding: 7px 0;
+}
+.ca .c-5{
+    color: white;
+    padding: 30px 0;
+    width: 23rem;
+    padding-top: 0.65rem;
+    padding-bottom: 0.65rem;
+    position: relative;
+    border: 1px solid black;
+    text-align: center;
+    background-color: #b18c57;
+}
+.ca .c-5:hover{
+    background-color: #4a2e05;
+    cursor: pointer;
+}
+.cs{
+    padding: 30px 0;
+    color: #b18c57;
+}
+.header-10{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.851);
+   
+}
+.info-container{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+.gal{
+   padding: 60px 0;
+   width: 25%; 
+}
+.gal p{
+    color: rgba(255, 255, 255, 0.514);
+    padding: 30px 0;
+    font-family: cursive;
+}
+.gal h3{
+    color: rgba(255, 255, 255, 0.458);
+    position: relative;
+    top: 250px;
+    width: 450px;
+    font-family: cursive;
+    font-weight: 20;
+    font-size: 15px;
+}
+.gal span {
+    color: white;
+    font-family: cursive;
+    font-size: 18px;
+    font-weight: 100;
+}
+.gal span:hover{
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.408);
+}
+.gal #row:hover{
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.408);  
+}
+.gal #row{
+    color: white;
+    position: relative;
+    top: 8px;
+    left: 5px;
+}
+.contact{
+    padding: 60px 0;
+    width: 25%;
+}
+.contact .bo:hover{
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.408);
+}
+.contact h2{
+    color: white;
+    font-family: cursive;
+    font-weight: 200;
+    padding-bottom: 15px;
+}
+.contact #alt {
+    color: rgba(255, 255, 255, 0.514);
+}
+.contact span{
+    color: rgba(255, 255, 255, 0.514);
+    font-family: cursive;
+
+}
+#ll{
+    color: rgba(255, 255, 255, 0.514);;
+    padding: 20px 0;
+    font-size: 20px;
+}
+.contact .bo{
+    color: white;
+    font-size: 18px;
+    font-family: cursive;
+}
+.quick{
+    width: 25%;
+    padding: 60px 0;
+}
+.quick h2{
+    color: white;
+    font-family: cursive;
+    font-weight: 100;
+}
+.quick ul li{
+    padding: 12px 0;
+    font-family: cursive;
+}
+.quick ul{
+    color: white;
+    list-style-type: none;
+    padding: 15px 0;
+}
+.quick-1 .ch:hover{
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.418);
+}
+.quick-2 .char:hover{
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.418); 
+}
+ .te-2 .char{
+     position: relative;
+     left: 10rem;
+     bottom: 16rem;
+}
+.subcribe h2{
+    color: white;
+    font-family: cursive;
+    font-family: 100;
+}
+.subcribe p{
+    color: rgba(17, 16, 16, 0.53);
+    border: 1px solid white;
+    width: 300px;
+    height: 50px;
+    text-align: left;
+     padding: 0 15px;
+    padding-top: 15px;
+    background-color: #f9f7f3;
+    font-family: cursive;
+}
+.subcribe .btn{
+    position: relative;
+    top: -69px;
+    left: 175px;
+    padding: 15px 38px;
+    background-color: #b18c57;
+    font-family: cursive;
+    font-weight: 200;
+}
+.subcribe h3:hover{
+    background-color: #4a2e05;
+    cursor: pointer;
+}
+.subcribe{
+    width: 25%;
+    padding: 60px 0;
+}
+.facebook h2{
+    padding: 44px 0;
+    color: rgb(255, 255, 255);
+}
+.facebook #f{
+    color: white;
+}
+.facebook a{
+    font-size: 20px;
+    position: relative;
+    bottom: 30px;
+    color: white;
+    padding:  0 10px;
+}
+.facebook a:hover{
+   cursor: pointer;
+   color: aqua;
+}
+.facebook  #you{
+    font-size: 30px;
+    padding: -1px 3px;
+    position: relative;
+    top: 10px;
+}
+.facebook h4{
+    color: rgba(255, 255, 255, 0.452);
+    position: relative;
+    left: 70px;
+    top: 220px;
+    font-family: cursive;
+    font-weight: 100;
+    font-size: 16px;
+}
+.facebook h5{
+    color: rgba(255, 255, 255, 0.452);
+    position: relative;
+    left: 200px;
+    top: 200px;
+    font-family: cursive;
+    font-size: 16px;
+    font-weight: 30;
+}
+.footer-1{
+    width: 80%;
+    border: 1px solid rgba(255, 255, 255, 0.311);
+    padding-bottom: 20px;
+    position: relative;
+    bottom: 13rem;
+    left: 9rem;
+    padding: 0px 0;
+}
+
+
